@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.bckgrnd-img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    padding: 25px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #F8CBA6;
+    padding: 20px;
+    text-align: center;
+}
+
+#style-text {
+    float: right;
+    color: aliceblue;
+}
+
+#style-text:hover {
+    color: black;
+}
+
+#button {
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    width: 165px;
+    height: 48px;
+    margin: 10px;
+
+}
+
+#button:hover {
+    background-color: #F8CBA6;
+    color: black;
+}
+
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    width: 50%;
+    left: 18rem;
+    top: 18rem;
+    background-color: transparent;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #F8CBA6;
+}
+
+.topnav a {
+    float: inline-start;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.section__container {
+    padding: 5rem 1rem;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.section__title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section__subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    color: black;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#img {
+    width: 100%;
+    height: 360px;
+}
+
+.journey__container {
+    background-color: #F8CBA6;
+}
+
+.journey__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.country__card {
+    background-color: #F8CBA6;
+}
+
+.country__name {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.country__name i {
+    font-size: 1.2rem;
+}
+
+.country__name span {
+    font-style: italic;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.why-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.why-flex>div {
+    box-shadow: 5px 10px 10px black, 10px 20px 20px #d86558;
+    width: calc(100% / 2 - 5%);
+    flex-wrap: wrap;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+.why-flex img {
+    width: 100%;
+}
+
+.abt {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.abt>div {
+    box-shadow: 5px 10px 10px black, 10px 20px 20px #d86558;
+    width: calc(100% / 3 - 5%);
+    flex-wrap: wrap;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#style:hover {
+    color: white;
+}
+
+.memo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.memo>div {
+    box-shadow: 5px 10px 10px black, 10px 20px 20px #d86558;
+    border: 1px solid black;
+    width: 23%;
+    flex-wrap: wrap;
+    padding: 20px;
+    opacity: 1.0;
+}
+
+.memo img {
+    width: 100%;
+}
+
+.display__container {
+    background-color: #F8CBA6;
+    display:flex;
+}
+
+.display__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.display__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.display__card i {
+    font-size: 2rem;
+}
+
+.display__card h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 1rem;
+}
+
+.display__card p {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+}
+
+.display__grid .grid-1 {
+    grid-area: 2/1/3/3;
+}
